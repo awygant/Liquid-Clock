@@ -1,0 +1,30 @@
+.liquid{
+    font-size:120px;
+}
+
+.liquid-bottom, .liquid-top{
+    position:absolute;
+    top:0;
+}
+
+.liquid-bottom{
+    z-index:0;
+    background-color:#f00;
+}
+
+.liquid-top{
+    z-index:1;
+    color:#f00;
+    overflow:hidden;
+}
+
+.hour, .minute, .second{
+    overflow:hidden;
+    display:inline-block;
+    vertical-align:top;
+    padding:0 30px;
+}
+
+.liquid-top div{
+    background-color:#000;
+}

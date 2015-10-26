@@ -21,7 +21,7 @@
         settings.foregroundColor = color;
         /*return this.each(function(){
             $(this).find('.liquid-top').children('div').css('color', color);
-            $(this).find('.liquid-bottom').css('background-color', color);
+            $(this).find('.liquid-bottom').css('background-gcolor', color);
         })*/
     };
 
